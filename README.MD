@@ -1,4 +1,4 @@
-<p align="center"><img src="\images\tensorflow-2.0.gif" height="300" width="300"></img></p>
+<p align="center"><img src="images\tensorflow-2.0.gif" height="300" width="300"></img></p>
 
 ## Introduction  
 This repository is a collection of programs written as exmaples in Tensorflow V2. Programs are combined into following three sections-  
