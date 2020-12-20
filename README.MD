@@ -16,22 +16,22 @@ Primary objective of the project is to gain an in-depth understanding of functio
 ## Agenda
 Following is the tentative agenda-  
 
-| Date       | Topic                            | Programs               | Reading |Remarks   |
+| Date       | Topic                            | Programs               | Reading |Remarks (weak points)   |
 |:----------:|:--------------------------------:|:----------------------:|:-------:|:--------:|
-| 21/12/2020 |Introduction                      |ANN, CNN, Autograph, LR |         |          |
-| 22/12/2020 |Deep Convolutional Models-1       |Inception               |         |          |
-| 23/12/2020 |Deep Convolutional Models-2       |VGG, ResNet             |         |          |
-| 24/12/2020 |Memory-based Models               |RNN, LSTM               |         |          |
-| 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  |         |          |
-| 26/12/2020 |Distributed Training              |DistGPU                 |         |          |
-| 27/12/2020 |Test-1                            |implement 2 programs    |         |          |
-| 28/12/2020 |Language Models                   |BERT, GPT3              |         |          |
-| 29/12/2020 |Case Study                        |Chinese->English in BERT|         |          |
-| 30/12/2020 |Reinforcement Learning            |A2C, Dreamer            |         |          |
-| 31/01/2021 |Test-2                            |implement 2 programs    |         |          |
-| 01/01/2021 |Project Day                       |project                 |         |          |
-| 02/01/2021 |Project Day                       |project                 |         |          |
-| 03/01/2021 |Project Day                       |project                 |         |          |
+| 21/12/2020 |Introduction                      |ANN, CNN, Autograph, LR | [new features](https://www.tensorflow.org/guide/effective_tf2)| use tf.float32 from now on         |
+| 22/12/2020 |Deep Convolutional Models-1       |Inception               | [tf.Module()](https://www.tensorflow.org/api_docs/python/tf/Module)|          |
+| 23/12/2020 |Deep Convolutional Models-2       |VGG, ResNet             | [tf.GradientTape()](https://www.tensorflow.org/api_docs/python/tf/GradientTape)|          |
+| 24/12/2020 |Memory-based Models               |RNN, LSTM               | [RNNs in Keras](https://www.tensorflow.org/guide/keras/rnn)|          |
+| 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  | [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan)|          |
+| 26/12/2020 |Distributed Training              |DistGPU                 | [Distributed Training in TF](https://www.tensorflow.org/guide/distributed_training)|          |
+| 27/12/2020 |Test-1                            |implement 2 programs    |-         |          |
+| 28/12/2020 |Language Models                   |BERT, GPT3              | [Transformers in Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)|          |
+| 29/12/2020 |Case Study                        |Chinese->English in BERT| [BERT for classification](https://www.tensorflow.org/tutorials/text/classify_text_with_bert), [Fine-tuning BERT](https://www.tensorflow.org/official_models/fine_tuning_bert), [Solving GLUE tasks using BERT](https://www.tensorflow.org/tutorials/text/solve_glue_tasks_using_bert_on_tpu)|          |
+| 30/12/2020 |Reinforcement Learning            |A2C, Dreamer            | [DreamerV2](https://github.com/danijar/dreamerv2)|          |
+| 31/01/2021 |Test-2                            |implement 2 programs    |-         |          |
+| 01/01/2021 |Project Day                       |project                 |-         |          |
+| 02/01/2021 |Project Day                       |project                 |-         |          |
+| 03/01/2021 |Project Day                       |project                 |-         |          |
 
 ## Potential Project Topics
 
