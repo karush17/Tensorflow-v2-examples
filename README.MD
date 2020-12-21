@@ -1,13 +1,12 @@
 <p align="center"><img src="images\tensorflow-2.0.gif" height="300" width="300"></img></p>
 
 ## Introduction  
-This repository is a collection of programs written as exmaples in Tensorflow V2. Programs are combined into following three sections-  
+This repository is a collection of programs written as examples in Tensorflow V2. Programs are combined into following two sections-  
 * Example scripts  
-* Short tutorials  
 * Collaborative projects  
 
 ## Motivation
-Primary objective of the project is to gain an in-depth understanding of functional and operational characteristics of Tensorflow V2. These include Tensorflow syntax, Keras API, control flow and dynamic computation of graphs. Example scripts will build the understanding of writing programs in the basic Tensorflow structure. Short turtorials aim to serve as notes and reference materials for future application development. And finally, collaborative projects will lead to the development of practical Tensorflow aplications for solving a challenging problem.  
+Primary objective of the project is to gain an in-depth understanding of functional and operational characteristics of Tensorflow V2. These include Tensorflow syntax, Keras API, control flow and dynamic computation of graphs. Example scripts will build the understanding of writing programs in the basic Tensorflow structure. Collaborative projects will lead to the development of practical Tensorflow aplications for solving a challenging problem.  
 
 ## Study Material
  - [ ] [Tensorflow Documentation](https://www.tensorflow.org/api_docs) (primary resource)  
