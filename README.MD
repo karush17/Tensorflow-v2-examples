@@ -20,7 +20,7 @@ Following is the tentative agenda-
 | Date       | Topic                            | Programs               | Reading |Remarks (weak points)   |
 |:----------:|:--------------------------------:|:----------------------:|:-------:|:--------:|
 | 21/12/2020 |Introduction                      |ANN, CNN, Autograph, LR | [new features](https://www.tensorflow.org/guide/effective_tf2)| use tf.float32 and tf.Module() from now on         |
-| 22/12/2020 |Deep Convolutional Models-1       |Inception               | [tf.Module()](https://www.tensorflow.org/api_docs/python/tf/Module)|          |
+| 22/12/2020 |Deep Convolutional Models-1       |Inception               | [tf.Module()](https://www.tensorflow.org/api_docs/python/tf/Module)| optmize graph using @tf.function|
 | 23/12/2020 |Deep Convolutional Models-2       |VGG, ResNet             | [tf.GradientTape()](https://www.tensorflow.org/api_docs/python/tf/GradientTape)|          |
 | 24/12/2020 |Memory-based Models               |RNN, LSTM               | [RNNs in Keras](https://www.tensorflow.org/guide/keras/rnn)|          |
 | 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  | [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan)|          |
