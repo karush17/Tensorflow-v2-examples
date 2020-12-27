@@ -19,17 +19,17 @@ Following is the tentative agenda-
 
 | Date       | Topic                            | Programs               | Reading |Remarks (weak points)   |
 |:----------:|:--------------------------------:|:----------------------:|:-------:|:--------:|
-| 21/12/2020 |Introduction                      |ANN, CNN, Autograph, LR | [new features](https://www.tensorflow.org/guide/effective_tf2)| use tf.float32 and tf.Module() from now on         |
+| 21/12/2020 |Introduction                      |ANN, CNN, Autograph, LR | [new features](https://www.tensorflow.org/guide/effective_tf2)| use tf.float32 from now on         |
 | 22/12/2020 |Deep Convolutional Models-1       |Inception               | [tf.Module()](https://www.tensorflow.org/api_docs/python/tf/Module)| optmize graph using @tf.function|
-| 23/12/2020 |Deep Convolutional Models-2       |VGG, ResNet             | [tf.GradientTape()](https://www.tensorflow.org/api_docs/python/tf/GradientTape)|          |
-| 24/12/2020 |Memory-based Models               |RNN, LSTM               | [RNNs in Keras](https://www.tensorflow.org/guide/keras/rnn)|          |
-| 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  | [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan)|          |
-| 26/12/2020 |Distributed Training              |DistGPU                 | [Distributed Training in TF](https://www.tensorflow.org/guide/distributed_training)|          |
-| 27/12/2020 |Test-1                            |implement 2 programs    |-         |          |
+| 23/12/2020 |Deep Convolutional Models-2       |VGG, ResNet             | [tf.GradientTape()](https://www.tensorflow.org/api_docs/python/tf/GradientTape)|tf.Session() replaced with tf.GradientTape()          |
+| 24/12/2020 |Memory-based Models               |RNN, LSTM               | [RNNs in Keras](https://www.tensorflow.org/guide/keras/rnn)| tf.Module() preferred         |
+| 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  | [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan)| list-concatenated layers for larger models         |
+| 26/12/2020 |Distributed Training              |DistGPU                 | [Distributed Training in TF](https://www.tensorflow.org/guide/distributed_training)| average tower gradients for each GPU udring training, manually set tf.device() flag         |
+| 27/12/2020 |Test-1                            |implement 1 program     |CycleGAN         |-          |
 | 28/12/2020 |Language Models                   |BERT, GPT3              | [Transformers in Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)|          |
 | 29/12/2020 |Case Study                        |Chinese->English in BERT| [BERT for classification](https://www.tensorflow.org/tutorials/text/classify_text_with_bert), [Fine-tuning BERT](https://www.tensorflow.org/official_models/fine_tuning_bert), [Solving GLUE tasks using BERT](https://www.tensorflow.org/tutorials/text/solve_glue_tasks_using_bert_on_tpu)|          |
 | 30/12/2020 |Reinforcement Learning            |A2C, Dreamer            | [DreamerV2](https://github.com/danijar/dreamerv2)|          |
-| 31/01/2021 |Test-2                            |implement 2 programs    |-         |          |
+| 31/01/2021 |Test-2                            |implement 1 program     |-         |          |
 | 01/01/2021 |Project Day                       |project                 |-         |          |
 | 02/01/2021 |Project Day                       |project                 |-         |          |
 | 03/01/2021 |Project Day                       |project                 |-         |          |
