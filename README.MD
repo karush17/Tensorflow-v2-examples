@@ -26,13 +26,13 @@ Following is the tentative agenda-
 | 25/12/2020 |Adversarial Learning              |GAN, Pix2Pix, CycleGAN  | [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan)| list-concatenated layers for larger models         |
 | 26/12/2020 |Distributed Training              |DistGPU                 | [Distributed Training in TF](https://www.tensorflow.org/guide/distributed_training)| average tower gradients for each GPU udring training, manually set tf.device() flag         |
 | 27/12/2020 |Test-1                            |implement 1 program     |CycleGAN         |-          |
-| 28/12/2020 |Language Models                   |BERT, GPT3              | [Transformers in Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)|          |
-| 29/12/2020 |Case Study                        |Chinese->English in BERT| [BERT for classification](https://www.tensorflow.org/tutorials/text/classify_text_with_bert), [Fine-tuning BERT](https://www.tensorflow.org/official_models/fine_tuning_bert), [Solving GLUE tasks using BERT](https://www.tensorflow.org/tutorials/text/solve_glue_tasks_using_bert_on_tpu)|          |
-| 30/12/2020 |Reinforcement Learning            |A2C, Dreamer            | [DreamerV2](https://github.com/danijar/dreamerv2)|          |
+| 28/12/2020 |Language Models                   |GPT              | [Transformers in Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)| use predefined layers for large models, revise attention mechanisms|
+| 29/12/2020 |Case Study                        |Training BERT in Tensorflow| [BERT for classification](https://www.tensorflow.org/tutorials/text/classify_text_with_bert), [Fine-tuning BERT](https://www.tensorflow.org/official_models/fine_tuning_bert), [Solving GLUE tasks using BERT](https://www.tensorflow.org/tutorials/text/solve_glue_tasks_using_bert_on_tpu)|          |
+| 30/12/2020 |Reinforcement Learning            |A2C            | [Dreamer](https://github.com/danijar/dreamer)|          |
 | 31/01/2021 |Test-2                            |implement 1 program     |-         |          |
-| 01/01/2021 |Project Day                       |project                 |-         |          |
-| 02/01/2021 |Project Day                       |project                 |-         |          |
-| 03/01/2021 |Project Day                       |project                 |-         |          |
+| 01/01/2021 |Project Day                       |DreamerV2               |[DreamerV2](https://github.com/danijar/dreamerv2)         |          |
+| 02/01/2021 |Project Day                       |DreamerV2               |[DreamerV2](https://github.com/danijar/dreamerv2)         |          |
+| 03/01/2021 |Project Day                       |DreamerV2               |[DreamerV2](https://github.com/danijar/dreamerv2)         |          |
 
 ## Potential Project Topics
 
