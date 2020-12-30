@@ -28,7 +28,7 @@ Following is the tentative agenda-
 | 27/12/2020 |Test-1                            |implement 1 program     |CycleGAN         |-          |
 | 28/12/2020 |Language Models                   |GPT              | [Transformers in Tensorflow](https://www.tensorflow.org/tutorials/text/transformer)| use predefined layers for large models, revise attention mechanisms|
 | 29/12/2020 |Case Study                        |Training BERT in Tensorflow| [BERT for classification](https://www.tensorflow.org/tutorials/text/classify_text_with_bert), [Fine-tuning BERT](https://www.tensorflow.org/official_models/fine_tuning_bert), [Solving GLUE tasks using BERT](https://www.tensorflow.org/tutorials/text/solve_glue_tasks_using_bert_on_tpu)|          |
-| 30/12/2020 |Reinforcement Learning            |A2C            | [Dreamer](https://github.com/danijar/dreamer)|          |
+| 30/12/2020 |Reinforcement Learning            |A2C            | [Dreamer](https://github.com/danijar/dreamer)| use Keras API for combined model loss, model.train_on_bathc(obs, [inp1, inp2])         |
 | 31/01/2021 |Test-2                            |implement 1 program     |-         |          |
 | 01/01/2021 |Project Day                       |DreamerV2               |[DreamerV2](https://github.com/danijar/dreamerv2)         |          |
 | 02/01/2021 |Project Day                       |DreamerV2               |[DreamerV2](https://github.com/danijar/dreamerv2)         |          |
